@@ -21,24 +21,30 @@ body{
 }
 
 #blue_botton {
-    width: 50;
-    height: 50;
-    background-color:rgb(65, 127, 243);
-    display: inline-block;
-    border-radius: 50;
+    width: 60;
+    height: 60;
+    background-color:rgb(13, 178, 228);
     text-align: center;
     margin-left: 35px;
+    border-style: solid; border-color: rgb(13, 178, 228);
+    margin-top: 12px;
+    border-radius: 5px;
+    
 }
 #white_botton {
-    background-color: rgb(247, 170, 170);
-    height: 50px;
-    width: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+    width: 80px;
     text-align: center;
     margin-left: 5px;
+    border-style: solid; border-color: rgb(240, 239, 239);
+    border-radius: 5px;
+    margin-top: 12px;
 }
 
 #gray_line{
     color: rgb(240, 239, 239);
+    margin-top: 12px;
 }
 
 .titles {
@@ -49,4 +55,21 @@ body{
 .points{
     margin-left: 35px;
     margin-top: 5px;
+}
+
+.positive {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: greenyellow;
+    display: inline;
+    background-color: white;
+}
+
+.negative {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
 }
